@@ -6,5 +6,5 @@
 
 * [useState](hook/usestate.md)
 * [useEffect](hook/useeffect.md)
-* [custom Hook](hook/custom-hook.md)
+* [Custom Hook](hook/custom-hook.md)
 
