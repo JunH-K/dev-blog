@@ -1,12 +1,14 @@
 # useContext
 
-부모 컴포넌트에서 전달된 컨텍스트 데이터사용시 Consumer 컴포넌트를 사용하지 않고 쓸수 있다.
+
+
+자식 컴포넌트에서 부모 컴포넌트에서 전달된 컨텍스트 데이터사용시 Consumer 컴포넌트를 사용하지 않고 쓸수 있다.
 
 
 
 > 훅 없이 컨텍스트 데이터 받기
 
-부모컴포넌트 
+* 부모컴포넌트 
 
 ```javascript
 import React, { createContext } from 'react';
@@ -29,8 +31,7 @@ export default App;
 
 ```
 
-자식컴포넌트에서 컨텍스트 데이터 전달 받기  
-Consumer 컴포넌트를 사용해야한다. 1번영역에서 컨텍스트 데이터를 쓸 수 없다.
+* 자식컴포넌트 Consumer 컴포넌트를 사용해야한다. 1번영역에서 컨텍스트 데이터를 쓸 수 없다.
 
 ```javascript
 const Child = () => {
