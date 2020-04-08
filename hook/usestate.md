@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <div>{count}</div>
-      <button onClick={onClickIncrement}> 증가</button>
+      <button onClick={onClickIncrement}>증가</button>
       <button onClick ={onClickDecrement}>감소</button>
     </div>
   );
