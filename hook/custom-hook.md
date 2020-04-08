@@ -51,12 +51,12 @@ const useHasMounted = () => {
   const [hasMounted, setHasMounted] = useState(false);
   useEffect(() => {
     setHasMounted(true);
-  },[]);//1
+  },[]);
   
   return hasMounted
 };
 
 ```
 
-useHasMounted 훅은 컴포넌트가 마운트 된 후라면 참을 반환한다. 두번째 매개변수로 빈배열을 전달하여 업데이트 시에는 setHasMounted 함수가 호출 되지 않는다.
+useHasMounted 훅은 컴포넌트가 마운트 된 후라면 참을 반환한다. useEffect의 두번째 매개변수로 빈 배열을 전달하여 업데이트 시에는 setHasMounted 함수가 호출 되지 않는다.
 
