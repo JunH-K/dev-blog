@@ -10,7 +10,7 @@
 
 > 목차
 
-* [React.js](hook/react-hook/)
+* [React.js](react/react-hook/)
 
 
 

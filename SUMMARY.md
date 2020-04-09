@@ -2,11 +2,11 @@
 
 * [기술 블로그](README.md)
 
-## React <a id="hook"></a>
+## React
 
-* [React Hook](hook/react-hook/README.md)
-  * [useState](hook/react-hook/usestate.md)
-  * [useEffect](hook/react-hook/useeffect.md)
-  * [useContext](hook/react-hook/usecontext.md)
-  * [Custom Hook](hook/react-hook/custom-hook.md)
+* [React Hook](react/react-hook/README.md)
+  * [useState](react/react-hook/usestate.md)
+  * [useEffect](react/react-hook/useeffect.md)
+  * [useContext](react/react-hook/usecontext.md)
+  * [Custom Hook](react/react-hook/custom-hook.md)
 
