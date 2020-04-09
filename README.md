@@ -5,7 +5,6 @@
 > 소개
 
 [프론트엔드 개발 기술 블로그](https://k-developer.gitbook.io/dev/)
-동기화
 
 
 > 목차
