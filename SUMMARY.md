@@ -1,6 +1,6 @@
 # Table of contents
 
-* [기술 블로그](README.md)
+* [프론트엔드 기술 블로그](README.md)
 
 ## React
 

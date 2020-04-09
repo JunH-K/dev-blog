@@ -1,4 +1,4 @@
-# 기술 블로그
+# 프론트엔드 기술 블로그
 
 [![HitCount](http://hits.dwyl.com/JunH-K/https://githubcom/JunH-K/react-gitbook.svg)](http://hits.dwyl.com/JunH-K/https://githubcom/JunH-K/react-gitbook)
 
@@ -6,8 +6,11 @@
 
 [프론트엔드 개발 기술 블로그](https://k-developer.gitbook.io/dev/)
 
-
 > 목차
 
 * [React.js](react/react-hook/)
+
+
+
+[GitHub](https://github.com/JunH-K/dev-blog)
 
