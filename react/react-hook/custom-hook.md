@@ -53,7 +53,7 @@ const useHasMounted = () => {
     setHasMounted(true);
   },[]);
   
-  return hasMounted
+  return hasMounted;
 };
 
 ```
