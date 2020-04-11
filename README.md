@@ -9,9 +9,13 @@
 > 목차
 
 * [React.js](react/react-hook/)
-* Javascript
+* [Javascript](javascript/es6/)
 
 
 
+{% hint style="info" %}
 [GitHub](https://github.com/JunH-K/dev-blog)
+{% endhint %}
+
+
 
