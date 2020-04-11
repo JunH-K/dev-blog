@@ -4,18 +4,13 @@
 
 > 소개
 
-[프론트엔드 개발 기술 블로그](https://k-developer.gitbook.io/dev/)
+[프론트엔드 개발 기술 블로그](https://k-developer.gitbook.io/dev/)  
+[GitHub](https://github.com/JunH-K/dev-blog)
 
 > 목차
 
 * [React.js](react/react-hook/)
 * [Javascript](javascript/es6/)
-
-
-
-{% hint style="info" %}
-[GitHub](https://github.com/JunH-K/dev-blog)
-{% endhint %}
 
 
 
