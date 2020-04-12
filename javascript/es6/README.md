@@ -1,4 +1,4 @@
 # Javascript
 
-* [ES6](let-const/)
+* [ECMAScript 6](let-const/)
 
