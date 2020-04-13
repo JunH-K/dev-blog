@@ -12,6 +12,7 @@
 * [React.js](react/react-hook/)
 * Javascript
   * [ECMAScript 6](javascript/let-const/)
+* TypeScript
 
 
 
