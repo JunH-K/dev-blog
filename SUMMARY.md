@@ -14,8 +14,7 @@
 
 ## Javascript
 
-* [Javascript](javascript/es6/README.md)
-  * [ECMAScript 6](javascript/es6/let-const/README.md)
-    * [let, const](javascript/es6/let-const/let-const.md)
-    * [화살표함수](javascript/es6/let-const/undefined.md)
+* [ECMAScript 6](javascript/let-const/README.md)
+  * [let, const](javascript/let-const/let-const.md)
+  * [화살표함수](javascript/let-const/undefined.md)
 

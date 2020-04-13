@@ -10,7 +10,8 @@
 > 목차
 
 * [React.js](react/react-hook/)
-* [Javascript](javascript/es6/)
+* Javascript
+  * [ECMAScript 6](javascript/let-const/)
 
 
 
