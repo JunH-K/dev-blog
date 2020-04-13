@@ -66,7 +66,7 @@ onSave 함수내의 console.log\(name\)은 몇 번이 호출되어도 '' 빈 문
 ```javascript
   const onSave = useCallback(() => {
     console.log(name);
-  }, [name]);//name이 변경될 때에만 함수 재생
+  }, [name]);//name이 변경될 때에만 함수 재생성.
 ```
 
 
