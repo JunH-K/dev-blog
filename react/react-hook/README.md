@@ -26,7 +26,7 @@
 
 * useReducer
 * useCallback
-* useMemo
+* [useMemo](usememo.md)
 * useRef
 * useImperativeHandle
 * useLayoutEffect
