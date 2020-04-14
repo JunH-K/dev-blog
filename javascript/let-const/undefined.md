@@ -155,3 +155,38 @@ func(1, 2);
 
 화살표 함수로 똑같이 구현한다면  Spread 문법으로 구현 할 수 있다.
 
+* call, apply, bind
+
+명시적으로 this를 바인딩 해주는 함수이다.
+
+```javascript
+function func(a,b) {
+  this.a = a;
+  this.b = b;
+}
+
+const obj = {
+  lang: 'javascript'
+}
+
+func.call(obj,1,2); // func함수 호출시 this를 obj로 바인딩 후 호출
+console.log(obj); //{lang,a,b}
+```
+
+하지만 화살표 함수는 this를 변경 할 수 없다.
+
+```javascript
+const func = (a, b) => {
+  this.a = a;
+  this.b = b;
+}
+
+const obj = {
+  lang: 'javascript'
+}
+
+func.call(obj, 1, 2);
+console.log(obj); //{lang}
+
+```
+
