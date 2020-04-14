@@ -4,8 +4,10 @@
 
 > 소개
 
-[프론트엔드 개발 기술 블로그](https://k-developer.gitbook.io/dev/)  
-[GitHub](https://github.com/JunH-K/dev-blog)
+프론트엔드 개발 기술 블로그 입니다.  
+  
+[GitBook ➡ Go](https://k-developer.gitbook.io/dev/)  
+[GitHub ➡ Go](https://github.com/JunH-K/dev-blog)
 
 > 목차
 
