@@ -56,6 +56,10 @@ function App() {
 
 ```
 
+최초 랜더링 후 useEffect에 의해 setInterval이 실행되고 1초마다 화면을 갱신하는 예제이다.
+
+
+
 setInterval 사용할때 반환하는 id 저장 후 clear할때 이 id로 clear를 하게된다.  
 이때 interval id 는 랜더링과 전혀 무관한 값이다. 이런 상황에 useRef를 사용하면 된다.
 
