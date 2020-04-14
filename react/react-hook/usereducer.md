@@ -35,5 +35,13 @@ function App() {
 
 > 데이터 흐름
 
-onChange -&gt; dispatch -&gt; action -&gt; reducer \(setName\) -&gt; update state -&gt; 랜더
+onChange -&gt; dispatch -&gt; action -&gt; reducer \(setName\) -&gt; update state -&gt; 랜더링 
+
+리덕스와 같은 방식으로 작동한다. state를 직접 업데이트 하지 않고 dispatch action 을 통해 관리한다.
+
+
+
+
+
+
 
