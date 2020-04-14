@@ -119,7 +119,7 @@ function func (x){
 }
 
 const arrow = (x)=>{
-	console.log(arguments);
+	console.log(arguments); //x
 }
 
 func();
