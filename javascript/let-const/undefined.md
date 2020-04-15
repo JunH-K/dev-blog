@@ -111,6 +111,22 @@ obj.func()();
 func 함수를 화살표 함수로 선언하면?  
 func 함수의 this는 window이고 고로 this는 window로 바뀐다.
 
+* 이벤트 callback 함수의 this
+
+```javascript
+const btn = document.querySelector('#btn');
+btn.addEventListener('click', function() {
+  console.log(this); //button
+});
+
+btn.addEventListener('click', () => {
+  console.log(this); //window
+});
+
+```
+
+function 콜백함수 내의 this는 button을 가리키지만, 화살표 함수의 this는 상위컨텍스트 window를 가리킨다.
+
 * **arguments**
 
 ```javascript
