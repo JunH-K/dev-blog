@@ -19,6 +19,7 @@
 * [ECMAScript 6](javascript/let-const/README.md)
   * [let, const](javascript/let-const/let-const.md)
   * [화살표 함수](javascript/let-const/undefined.md)
+  * [구조분해할당](javascript/let-const/undefined-1.md)
 
 ## TypeScript
 
