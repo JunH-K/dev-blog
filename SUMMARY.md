@@ -26,5 +26,5 @@
 
 ## Node.js
 
-* [노드 버전 관리\(윈도우10 기준\)](node.js/10.md)
+* [node.js 버전 관리](node.js/10.md)
 
