@@ -13,13 +13,13 @@ const [c,...rest] = [1,2,3] //2번
 console.log(c); //1
 console.log(rest); //[2,3]
 
-const [d, ,f] = [1,2,3] //3
+const [d, ,f] = [1,2,3] //3번
 console.log(d); //1
 console.log(f); //3
 
 let g = 10;
 let h = 20;
-[g, h] = [h, g];//4
+[g, h] = [h, g]; //4번 
 console.log(g); //20
 console.log(h); //10
 ```
