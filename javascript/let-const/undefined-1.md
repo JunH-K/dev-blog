@@ -44,7 +44,7 @@ const {a:aa, b:bb} = {a: 1, b: 2}; //3번
 console.log(aa); //1
 console.log(bb); //2
 
-const {a:aa = 1, b:bb} = {b: 2}; //4
+const {a:aa = 1, b:bb} = {b: 2}; //4번 
 console.log(aa); //1
 console.log(bb); //2
 ```
