@@ -24,5 +24,3 @@
 
 ## TypeScript
 
-* [GitHub](https://github.com/JunH-K/dev-blog)
-
