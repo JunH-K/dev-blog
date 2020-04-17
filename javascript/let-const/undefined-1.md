@@ -31,5 +31,26 @@ console.log(h); //10
 
 > 객체 분해 구조할당
 
+```javascript
+const {a, b} = {a: 1, b: 2}; //1번
+console.log(a); //1
+console.log(b); //2
 
+const {a = 1, b} = {b: 2}; //2번
+console.log(a); //1
+console.log(b); //2
+
+const {a:aa, b:bb} = {a: 1, b: 2}; //3번
+console.log(aa); //1
+console.log(bb); //2
+
+const {a:aa = 1, b:bb} = {b: 2}; //4
+console.log(aa); //1
+console.log(bb); //2
+```
+
+1. 우측 객체 프로퍼티를 좌측 변수에 대입한다. 좌측 변수이름은 가져올 객체 프로퍼티와 같아야 한다.
+2. 위와 같지만 값을 가져올 객체에  a 프로퍼티가 없거나 값이 undefined이면 a 기본값을 1로 할당한다.
+3. 1과 같지만 변수이름을 aa 와 bb 로 변경한다.  a는 변수로써 못쓰이고 aa로만 쓸 수 있다.
+4. 1,2,3의 조합 - 객체 프로퍼티를 a, b로 변수로 할당하지만 이름은 aa, bb로 변경하고, a프로퍼티가 없거나 값이 undefined 이면 aa 기본값을 1로 할당한다. 
 
