@@ -90,10 +90,12 @@ console.log(obj);//undefined
 ```javascript
 const obj = null;
 
+console.log(typeof obj === 'object'); //true
 
 if (obj === null) {
   console.log('null이다');
 }
+
 
 ```
 
