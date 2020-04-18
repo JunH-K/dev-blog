@@ -40,5 +40,26 @@ typeof로 검사하면 위 모든값은 "number" 이다.
 
 
 
+* 문자열
+
+```javascript
+const str = "쌍따옴표 문자열";
+const str2 = '따옴표 문자열';
+const str3 = `템플릿 리터럴 es6에 생김`;
+```
+
+세 가지 방식으로 표현 가능하다. 아무거나 선택해서 써도 되지만 일관성을 맞추기위해서 개인적으로 [prettier](https://www.npmjs.com/package/prettier)를 쓴다. "", '' 중 옵션으로 선택하면 파일저장할때 선택한 옵션으로 자동으로 다 바꿔준다. 편리..
+
+ \` 백틱\(키보드 숫자 1 왼쪽\)으로 표현하는 문자열은 es6에서 생겼고, 써본결과 문자열을 합칠때 깔끔하게 표현이 가능한거 같다.
+
+```javascript
+const java = '자바';
+const script = '스크립트';
+
+console.log(java + script + ' 공부합시다.');
+console.log(`${java}${script} 공부합시다.`);
+
+```
+
 
 
