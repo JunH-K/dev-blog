@@ -61,5 +61,39 @@ console.log(`${java}${script} 공부합시다.`);
 
 ```
 
+```javascript
+const script = '스크립트';
+const str = '';
+const num = '1';
 
+console.log(typeof script); //string
+console.log(typeof str); //string
+console.log(typeof num); //string
+
+```
+
+* null
+
+값이 없다는걸 명시적으로 표현할때 쓰인다. undefined와 같이 뭔가 없다는걸 표현하는것이 비슷하지만 undefined는 선언하고 값을 할당하지 않을때 시스템에서 자동으로 초기화해주는 값이다. 따라서 개발자가 명시적으로 값이 없다라는걸 표현할 때에만 null을 쓰는것이 일관성 있게 쓰일 수 있을 것같다.
+
+```javascript
+let obj;
+const func = (param) => {
+  console.log(param); //undefined
+}
+func();
+console.log(obj);//undefined
+```
+
+주의할 점은 typeof 검사시 object 이다. 찾아보면 설계상의 오류라고한다. 만약 조건문으로 쓰인다면 다음과 같이 한다.
+
+```javascript
+const obj = null;
+
+
+if (obj === null) {
+  console.log('null이다');
+}
+
+```
 
