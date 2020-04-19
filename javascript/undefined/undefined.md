@@ -95,7 +95,22 @@ console.log(typeof obj === 'object'); //true
 if (obj === null) {
   console.log('null이다');
 }
+```
 
+* undefined
+
+```javascript
+let a;
+const obj = {};
+const func = (param) => {
+  console.log(param); // undefined
+}
+
+func();
+console.log(a); //undefined
+console.log(obj.a); //undefined
 
 ```
+
+변수를 선언하거나 객체에 없는 프로퍼티에 접근했을때 자바스크립트 엔진이 명시적으로 undefined를 할당한다. 고로 개발자가 선언을 했지만 값을 초기화 안한 변수라고 알 수 있다. 의도적으로 값을 할당하지 않는것을 표현 할땐 null을 할당한다. 그래야 의도적인지 아닌지 판단할 수 있다.
 
