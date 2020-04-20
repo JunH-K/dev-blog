@@ -114,3 +114,32 @@ console.log(obj.a); //undefined
 
 변수를 선언하거나 객체에 없는 프로퍼티에 접근했을때 자바스크립트 엔진이 명시적으로 undefined를 할당한다. 고로 개발자가 선언을 했지만 값을 초기화 안한 변수라고 알 수 있다. 의도적으로 값을 할당하지 않는것을 표현 할땐 null을 할당한다. 그래야 의도적인지 아닌지 판단할 수 있다.
 
+
+
+* boolean
+
+논리적 참과 거짓을 나타낸다. 주로 조건문에 쓰이며, 변수명은 대체로 isXXXX로 명명한다.  
+각 데이터 값 앞에 \(!\) 느낌표 논리NOT 연자를 써서 boolean 데이터타입으로 변환할 수 있다.  
+''\(빈문자열\), 0, undefined, null -&gt; true가 되고 나머지는 모두 false이다.  
+
+
+```javascript
+const isComplete = true;
+console.log(!''); //true
+console.log(!0); //true
+console.log(!undefined); //true
+console.log(!null); //true
+
+console.log(!1); //false
+console.log(!'JS'); //false
+console.log(!{}); //false
+console.log(![]); //false
+console.log(!function func(){}); //false
+```
+
+
+
+
+
+* symbol
+
