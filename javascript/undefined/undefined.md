@@ -143,3 +143,21 @@ console.log(!function func(){}); //false
 
 * symbol
 
+새로추가된 원시타입 값이며 Symbol\(\) 로 생성한 값은 유일한 값이라고 한다. 이 값은 객체 프로퍼티로 사용되며 유일한 목적이라고 한다. 
+
+```javascript
+const s1 = Symbol();
+const s2 = Symbol();
+console.log(s1 === s2); //false
+
+const a1 = Symbol('a');
+const a2 = Symbol('a');
+console.log(a1 === a2); //false
+
+const obj = {};
+obj[s1] = 1;
+console.log(obj[s1]); //1
+
+
+```
+

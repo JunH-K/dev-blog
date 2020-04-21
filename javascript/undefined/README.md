@@ -2,7 +2,7 @@
 
 * [데이터타입 ](undefined.md)
 * [타입 및 객체 체크](undefined-1.md) 
-* 스코프
+* this
 
 
 
