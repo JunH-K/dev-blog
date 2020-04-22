@@ -161,3 +161,21 @@ console.log(obj[s1]); //1
 
 ```
 
+* object 객체타입
+
+원시타입을 제외한 모든것은 객체이다
+
+```javascript
+const obj = {
+  name: 'JS',
+  getName() {
+    return this.name;
+  }
+}
+
+const arr = [1, 2, 3]
+const func = () => {
+  return obj;
+}
+```
+
