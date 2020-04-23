@@ -1,5 +1,5 @@
 ---
-description: '#자바스크립트#es6#리액트#프론트엔드#html#css#react#node.js'
+description: '#자바스크립트#es6#리액트#프론트엔드#html#css#react#node.js#javascript'
 ---
 
 # 프론트엔드 기술 블로그
