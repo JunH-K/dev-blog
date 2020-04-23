@@ -45,14 +45,14 @@ if(!a){
 ```
 
 변수선언 후 값을 할당하지 않을때 자동으로 undefined를 할당한다.   
-undefined 자체로 확인가능하고 typeof 사용시 문자열로 확인한다.  ! 연산자로 boolean으로 변환 후 사용해도 된다. 주의할 점은 a가 null이나 0이어도 조건문을 통과한다. 
+undefined 자체로 확인가능하고 typeof 사용시 문자열로 확인한다.  ! 연산자로 boolean으로 변환 후 사용해도 된다. 주의할 점은 a가 null,  0, ''\(빈문자열\) 이어도 조건문을 통과한다. 
 
 ```javascript
 let a = 0;
 
 
 if(!a){
- console.log('a는 undefined, null, 0 중 하나!');
+ console.log('a는 undefined, null, 0, '' 중 하나!');
 }
 ```
 
