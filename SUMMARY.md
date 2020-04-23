@@ -1,6 +1,6 @@
 # Table of contents
 
-* [프론트엔드 기술 블로그](README.md)
+* [프론트엔드 기술 저장소](README.md)
 
 ## React
 
@@ -24,8 +24,6 @@
   * [let, const](javascript/let-const/let-const.md)
   * [화살표 함수](javascript/let-const/undefined.md)
   * [구조분해할당](javascript/let-const/undefined-1.md)
-
-## TypeScript
 
 ## Node.js
 
