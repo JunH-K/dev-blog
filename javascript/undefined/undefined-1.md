@@ -65,7 +65,7 @@ console.log(a === null);
 console.log(typeof null === 'object'); // true
 
 if(!a){
- console.log('a는 undefined, null, 0 중 하나!');
+console.log('a는 undefined, null, 0, '' 중 하나!');
 }
 ```
 
