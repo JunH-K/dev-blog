@@ -30,7 +30,7 @@ console.log(typeof str2 === 'string');
 console.log(str3.constructor === String);
 ```
 
-문자열 타입체
+문자열 타입체크
 
 * undefined
 
