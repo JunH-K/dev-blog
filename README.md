@@ -1,3 +1,7 @@
+---
+description: '#자바스크립트#es6#리액트#프론트엔드#html#css#react#node.js'
+---
+
 # 프론트엔드 기술 블로그
 
 [![HitCount](http://hits.dwyl.com/JunH-K/https://githubcom/JunH-K/react-gitbook.svg)](http://hits.dwyl.com/JunH-K/https://githubcom/JunH-K/react-gitbook)
@@ -16,6 +20,8 @@
   * [자바스크립트 기본](javascript/undefined/)
   * [ECMAScript 6](javascript/let-const/)
 * TypeScript
+
+
 
 
 
