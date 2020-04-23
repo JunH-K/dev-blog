@@ -37,6 +37,7 @@ console.log(str3.constructor === String);
 ```javascript
 let a;
 console.log(a === undefined); //true
+console.log(typeof undefined === 'undefined'); //true
 
 if(!a){
  console.log('a는 undefined');
@@ -44,7 +45,7 @@ if(!a){
 ```
 
 변수선언 후 값을 할당하지 않을때 자동으로 undefined를 할당한다.   
-명시적으로 undefined 인지 확인가능하고,  ! 연산자로 boolean으로 변환 후 사용해도 된다. 주의할 점은 a가 null이나 0이어도 조건문을 통과한다. 
+undefined 자체로 확인가능하고 typeof 사용시 문자열로 확인한다.  ! 연산자로 boolean으로 변환 후 사용해도 된다. 주의할 점은 a가 null이나 0이어도 조건문을 통과한다. 
 
 ```javascript
 let a = 0;
@@ -54,6 +55,21 @@ if(!a){
  console.log('a는 undefined, null, 0 중 하나!');
 }
 ```
+
+* null
+
+```javascript
+let a = null;
+
+console.log(a === null);
+console.log(typeof null); // 사용불가능 object
+
+if(!a){
+ console.log('a는 undefined, null, 0 중 하나!');
+}
+```
+
+사용자가 명시적으로 null을 할당하고 어디선가 확인할때 null  검사할 수 있다. typeof 는 object가 나오기때문에 사용할 수 없다. 
 
 > 자바스크립트 빈 객체인지 확인하기
 
