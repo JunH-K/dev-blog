@@ -4,6 +4,7 @@
 * [타입 및 객체 체크](undefined-1.md) 
 * [this](this.md)
 * 상속
+* 배열의 메소드
 
 
 
