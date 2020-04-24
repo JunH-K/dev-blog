@@ -113,8 +113,25 @@ console.log(isEmpty(obj));
 
 ```
 
-알아보고자 했던건 빈 객체를 확인 하는것이니 다시 작성하면 Object 메소드중 hasOwnProperty를 이용해서 prop이 있는지 확인한다. 비어있다면 return true  
+알아보고자 했던건 빈 객체를 확인 하는것이니 다시 작성하면 Object 메소드중 hasOwnProperty를 이용해서 prop이 있는지 확인한다. 비어있다면 return true
 
 
 
+```javascript
+const obj = {};
+
+function isEmpty(obj){
+ return Object.keys(obj).length === 0;
+}
+
+console.log(isEmpty(obj));
+
+console.log(Object.keys({
+  a: 1,
+  b: 2
+})); // ['a','b']
+
+```
+
+Object.keys 메소드는 해당객체의 프로퍼티들을 배열로 돌려준다. 따라서 프로퍼티가 없다면 배열의 길이는 0이고 이것을 이용하여 빈 객체를 확인할 수 있다.
 
