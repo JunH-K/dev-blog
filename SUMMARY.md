@@ -17,6 +17,7 @@
 ## Javascript
 
 * [자바스크립트 기본](javascript/undefined/README.md)
+  * [배열메소드](javascript/undefined/undefined-2.md)
   * [데이터타입](javascript/undefined/undefined.md)
   * [타입 및 객체 체크](javascript/undefined/undefined-1.md)
   * [this](javascript/undefined/this.md)
