@@ -75,9 +75,27 @@ console.log('a는 undefined, null, 0, '' 중 하나!');
 
 자바스크립트에서 빈 객체인지 확인이 필요할 때가 있다. undefined나 null이면 " ! " 연산자로 바로 확인이 가능하지만 객체는 프로퍼티가 있건 없건 논리적 true로 간주하기 때문에 다른 방법으로 확인해야한다. 
 
+```javascript
+const obj = {}
 
+if(obj){
+	console.log('객체있다~');
+}
+```
 
+위와 같이 객체가 비어있어도 true로 간주된다. 따라서 프로퍼티 존재확인을 위해서는 다른방법을 써야한다.
 
+```javascript
+const obj = {};
+
+function hasProp(obj, prop) {
+  return !!obj[prop];
+}
+
+console.log(hasProp(obj, 'a'));
+```
+
+해당객체에 prop으로 가져오고 !! 로 boolean으로 변환한다. 느낌적으론 될것같지만 만약a의 값이0이나 undefined,null 이면 예상했던 결과가 나오지않는다. 이건 패스..
 
 
 
