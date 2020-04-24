@@ -97,6 +97,8 @@ console.log(hasProp(obj, 'a'));
 
 해당객체에 prop으로 가져오고 !! 로 boolean으로 변환한다. 느낌적으론 될것같지만 만약a의 값이0이나 undefined,null 이면 예상했던 결과가 나오지않는다. 이건 패스..
 
+> hasOwnPropperty 로 객체 프로퍼티 확인
+
 ```javascript
 const obj = {};
 
@@ -115,7 +117,7 @@ console.log(isEmpty(obj));
 
 알아보고자 했던건 빈 객체를 확인 하는것이니 다시 작성하면 Object 메소드중 hasOwnProperty를 이용해서 prop이 있는지 확인한다. 비어있다면 return true
 
-
+> keys 메소드로 확인
 
 ```javascript
 const obj = {};
