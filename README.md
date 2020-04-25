@@ -20,5 +20,6 @@ description: '#자바스크립트#리액트#프론트엔드#html#css#react#node.
   * [자바스크립트 기본](javascript/undefined/)
   * [ECMAScript 6](javascript/let-const/)
 * TypeScript
-* 객체지향설계 
+* 객체지향설
+  * 객체지향설계 5대원칙
 

@@ -31,3 +31,12 @@
 
 * [node.js 버전 관리](node.js/10.md)
 
+## 객체지향설계
+
+* [객체 지향 설계 원칙](undefined/undefined/README.md)
+  * [단일 책임 원칙](undefined/undefined/undefined.md)
+  * [개방 폐쇄 원칙](undefined/undefined/undefined-1.md)
+  * [리스코프 치환 원칙](undefined/undefined/undefined-2.md)
+  * [인터페이스 분리 원칙](undefined/undefined/undefined-3.md)
+  * [의존 역전 원칙](undefined/undefined/undefined-4.md)
+
