@@ -89,15 +89,28 @@ reduce
 const arr = [7, 4, 8, 4, 3, -1];
 
 const result = arr.some((value) => {
-  return value < 0;
+  return value < 0; //배열 요소 중 하나라도 0 이하인가?
 });
 
 console.log(result); //true
 
 ```
 
-  
 
 
 * every
+
+위와 비슷한 함수이며 단지 배열의 요소들이 조건에 모두 만족하는지 판단한다.  
+배열의 임의의 숫자들이 모두 양수인지 확인하는 예제
+
+```javascript
+const arr = [7, 4, 8, 4, 3, -1];
+
+const result = arr.every((value) => {
+  return value > 0; //배열의 모든 요소가 0 이상인가?
+});
+
+console.log(result); //false
+
+```
 
