@@ -51,6 +51,35 @@ console.log(result); // {name:'A'}
 ```
 
 * reduce
+
+단어 뜻 그대로 배열을 줄여가며 값을 추출할때 이용할 수 있다.
+
+```javascript
+const arr = [{
+  name: 'A'
+}, {
+  name: 'B'
+}, {
+  name: 'C'
+}];
+
+const result = arr.reduce((preValue, curValue, index) => {
+  return preValue + curValue.name;
+}, ''); //초기값
+
+console.log(result); //ABC
+```
+
+reduce   
+첫번째 파라미터는 콜백함수  
+두번째 파라미터는 preValue 초기값이다.  
+콜백함수 return 값이 preValue 다음 값으로 할당된다.  
+  
+위의 실행 순서를 설명하면  
+1. '' + 'A'   -&gt; return 'A'  
+2. 'A' + 'B' -&gt; return 'AB'  
+3. 'AB'+'B' -&gt; return 'ABC'
+
 * some
 * every
 
