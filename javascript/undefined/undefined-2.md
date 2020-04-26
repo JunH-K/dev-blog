@@ -31,6 +31,25 @@ const result = arr.filter((value) => {
 console.log(result); // [3]
 ```
 
+객체배열인 경우
+
+```javascript
+const arr = [{
+  name: 'A'
+}, {
+  name: 'B'
+}, {
+  name: 'C'
+}];
+
+const result = arr.filter((value) => {
+  return value.name === 'A';
+});
+
+console.log(result); // {name:'A'}
+
+```
+
 * reduce
 * some
 * every
