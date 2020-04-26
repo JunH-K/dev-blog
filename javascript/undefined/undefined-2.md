@@ -81,5 +81,23 @@ reduce
 3. 'AB'+'B' -&gt; return 'ABC'
 
 * some
+
+단어에서 풍기는 느낌대로 콜백 함수내의 조건들이 한가지 경우라도 만족하는지 판단하고 boolean으로 반환한다.  
+예를 들어 임의의 숫자배열이 있고 음수가 하나라도 존재하는지 확인하고 싶다면 아래예제로 간단히 확인가능하다.
+
+```javascript
+const arr = [7, 4, 8, 4, 3, -1];
+
+const result = arr.some((value) => {
+  return value < 0;
+});
+
+console.log(result); //true
+
+```
+
+  
+
+
 * every
 
