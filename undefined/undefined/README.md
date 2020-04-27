@@ -47,7 +47,7 @@
 * [개방 폐쇄 원칙](undefined-1.md)
 * [리스코프 치환 원칙](undefined-2.md)
 * [인터페이스 분리 원칙](undefined-3.md)
-* [의존 역전 원](undefined-4.md)
+* [의존 역전](undefined-4.md) 원칙
 
 
 
