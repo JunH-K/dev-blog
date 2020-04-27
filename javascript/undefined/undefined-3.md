@@ -10,7 +10,14 @@
 
 * 생성자로 객체 생성
 
-```text
+```javascript
+function Language(name) {
+  this.name = name;
+}
+
+const js = new Language('javascript');
+
+console.log(js);
 
 ```
 
@@ -18,11 +25,16 @@
 
 * 리터럴로 객체 생성
 
-```text
+```javascript
+const js = {
+  name: 'javascript'
+}
+
+console.log(js);
 
 ```
 
 
 
-두 방법 모두 객체를 생성하는 방법이고 생성된 객체는 내부적으로 부모객체를 가리키는 프로토타입 링크가 있다. 
+두 방법 모두  name프로퍼티가 있고 값도 'javascript'로 같다. 또한 생성된 객체는 내부적으로 부모객체를 가리키는 프로토타입 링크도 있다.
 
