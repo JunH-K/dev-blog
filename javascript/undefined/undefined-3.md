@@ -41,12 +41,16 @@ console.log(js);
 여기까지 보면 두 객체는 같아 보이지만 부모객체는 서로 다른 객체를 가리키고 있다.  
 결론만 얘기하면 생성자를 통한 객체는 생성자.prototype , 리터럴로 생성한 객체는 Object.prototype을 가리킨다.
 
+{% hint style="info" %}
+크롬에서는 \_\_proto\_\_ 프로퍼티로 부모객체를 참조 할 수 있다.
+{% endhint %}
+
 ```javascript
 const js = {
   namd: 'javascript'
 }
 
-console.log(js.__proto__ === Object.prototype);
+console.log(js.__proto__ === Object.prototype); //true
 ```
 
 ```javascript
@@ -56,8 +60,42 @@ function Language(name) {
 
 const js = new Language('javascript');
 
-console.log(js.__proto__ === Language.prototype);
+console.log(js.__proto__ === Language.prototype); //true
 ```
+
+생성자를 통한 객체생성은 당연히 생성자.prototype을 가리키고 리터럴 생성방은 다음과 같다고 할 수 있다.  
+
+```javascript
+const preJs = {
+  name: 'javascript',
+}
+
+const js = new Object();
+js.name = 'javascript';
+
+
+console.log(preJs.__proto__ === js.__proto__); //true
+
+console.log(preJs.__proto__ === Object.prototype); //true
+console.log(js.__proto__ === Object.prototype); //true
+
+
+```
+
+프로토타입의 핵심은 두가지가 있다고 생각한다.
+
+1. 프로토타입 체인
+2. 프로토타입 프로퍼티 공유 
+
+> 프로토타입 체인
+
+객체의 변수나 메소드를 사용할때 검색하는 메커니즘이다. 해당 객체에 프로퍼티가 없으면 부모객체를 차례대로 올라가며 검색한다.
+
+
+
+> 프로토타입 프로퍼티 공유
+
+같은 생성자로 생성된 객체들은 같은 부모객체\(prototype\)를 가르키기 때문에 prototype 객체에 프로퍼티를 추가한다면 모든 자식에서 접근가능하다.
 
 
 
