@@ -91,6 +91,29 @@ console.log(js.__proto__ === Object.prototype); //true
 
 객체의 변수나 메소드를 사용할때 검색하는 메커니즘이다. 해당 객체에 프로퍼티가 없으면 부모객체를 차례대로 올라가며 검색한다.
 
+```javascript
+Object.prototype.getName = function() {
+  return this.name;
+}
+
+function Language(name) {
+  this.name = name;
+}
+
+const js = new Language('javascript');
+
+console.log(js.getName());
+```
+
+* js.getName\(\) 메서드 호출한다.
+* js 객체에 getName이 있는지 찾는다.
+* js객체에 getName 없는것을 확인한다.
+* Language.prototype 객체에 getName 이 있는지 찾는다. 
+* Language.prototype 객체에 getName이 없는것을 확인한다.
+* Object.prototype 에 getName 을 찾아 메서드를 실행한다.
+* 메서드를 실행하는 체는 js객체 이므로 this는 js이다.
+* return js.name 
+
 
 
 > 프로토타입 프로퍼티 공유
