@@ -120,5 +120,28 @@ console.log(js.getName());
 
 같은 생성자로 생성된 객체들은 같은 부모객체\(prototype\)를 가르키기 때문에 prototype 객체에 프로퍼티를 추가한다면 모든 자식에서 접근가능하다.
 
+```javascript
+function Language(name) {
+  this.name = name;
+}
 
+Language.prototype.getName = function (){
+ return this.name;
+}
+
+const child_1 = new Language('javascript');
+const child_2 = new Language('java');
+
+console.log(child_1.getName());
+console.log(child_2.getName());
+```
+
+* child\_1, child\_2 는 같은 생성자로 객체를 생성한다.
+* 같은 생성자로 생성되었으니 당연 같은 prototype을 가리킨다.
+* child\_1.\_\_proto\_\_ -&gt; Language.prototype
+* child\_2.\_\_proto\_\_ -&gt; Language.prototype
+* 두 child 모두 getName을 호출한다.
+* prototype에서 getName을 찾아서 호출한다.
+* this는 누가 호출했냐에 따라 달라지므로 호출한 객체를 this로 바인딩한다.
+* 각 child name을 리턴한다.
 
