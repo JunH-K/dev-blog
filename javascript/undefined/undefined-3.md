@@ -111,7 +111,7 @@ console.log(js.getName());
 * Language.prototype 객체에 getName 이 있는지 찾는다. 
 * Language.prototype 객체에 getName이 없는것을 확인한다.
 * Object.prototype 에 getName 을 찾아 메서드를 실행한다.
-* 메서드를 실행하는 체는 js객체 이므로 this는 js이다.
+* 메서드를 실행하는 객체는 js객체 이므로 this는 js이다.
 * return js.name 
 
 
