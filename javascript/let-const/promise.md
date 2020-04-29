@@ -25,7 +25,7 @@ const promise = new Promise((resolve, reject) => {
 ```javascript
 const promise = new Promise((resolve, reject) => {
   setTimeout(() => {
-   resolve('타임아');
+   resolve('타임아웃');
   }, 1000);
 });
 
