@@ -24,10 +24,10 @@
   * [this](javascript/undefined/this/README.md)
     * [bind, call, apply](javascript/undefined/this/bind-call-apply.md)
 * [ECMAScript 6](javascript/let-const/README.md)
-  * [Promise](javascript/let-const/promise.md)
   * [let, const](javascript/let-const/let-const.md)
   * [화살표 함수](javascript/let-const/undefined.md)
   * [구조분해할당](javascript/let-const/undefined-1.md)
+  * [Promise](javascript/let-const/promise.md)
 
 ## 객체지향설계
 
