@@ -30,6 +30,7 @@
   * [화살표 함수](javascript/let-const/undefined.md)
   * [구조분해할당](javascript/let-const/undefined-1.md)
   * [Promise](javascript/let-const/promise.md)
+  * [템플릿 문자열 표현식](javascript/let-const/undefined-2.md)
 
 ## 객체지향설계
 
