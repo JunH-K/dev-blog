@@ -6,7 +6,7 @@
 * 상속
 * [배열의 메소드](undefined-2.md)
 * [프로토타입 ](undefined-3.md)
-* 클로저
+* [클로저](undefined-4.md)
 * [스코프](undefined-5.md)
 
 
