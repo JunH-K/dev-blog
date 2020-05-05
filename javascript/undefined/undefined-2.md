@@ -114,3 +114,14 @@ console.log(result); //false
 
 ```
 
+* Array.isArray
+
+배열인지 판별하는 메소드
+
+```javascript
+console.log(Array.isArray([])); //true
+console.log(Array.isArray([1])); //true
+console.log(Array.isArray(new Array(1,2,3))); //true
+
+```
+
