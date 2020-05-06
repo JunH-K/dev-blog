@@ -26,6 +26,7 @@
   * [클로저](javascript/undefined/undefined-4.md)
   * [스코프](javascript/undefined/undefined-5.md)
 * [ECMAScript 6](javascript/let-const/README.md)
+  * [클래스 \(Class\)](javascript/let-const/class.md)
   * [let, const](javascript/let-const/let-const.md)
   * [화살표 함수](javascript/let-const/undefined.md)
   * [구조분해할당](javascript/let-const/undefined-1.md)
