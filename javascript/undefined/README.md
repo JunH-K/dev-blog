@@ -10,12 +10,6 @@
 * [스코프](undefined-5.md)
 * [호이스팅](undefined-6.md)
 
-&lt;details&gt;
-
-&lt;summary&gt;d&lt;/summary&gt;
-
-&lt;/details&gt;
-
 
 
 
