@@ -6,5 +6,5 @@ DOM트리는 노드로 구성된다. 루트를 제외하고 모든노드에 부�
 
 DOM트리의 모든 노드는 Node 클래스의 인스턴스이다. 부모와 자식노드 자신을 나타내는 프로퍼티인 parentNode, childNodes, nodeName, nodeType이 있다.
 
-DOM은 자신을 변경가능할 수 있게 API를 제공한다. 이를 DOM API라고 한다.
+DOM은 자신을 변경가능할 수 있게 API를 제공한다. 이를 DOM API라고 한다. document.getElementById\(\) 이런 메서드들이 DOM API 이다. 요소에 접근하고 객체를 가져오고 변경이 가능하다.
 
