@@ -39,13 +39,24 @@ if (1) {
 
 > 함수선언식
 
-```text
+```javascript
+console.log(func());
 
+function func() {
+  return 'javascript';
+}
 ```
 
-> 함수표현
+함수선언식도 var 변수 선언과 같이 선언 및 초기화가 이뤄지고, 다른점은 함수 몸체까지 할당되어 선언 이전과 이후 차이없이 사용할 수 있다.
 
-```text
+> 함수표현식
 
+```javascript
+console.log(func());
+const func = function() {
+  return 'javascript';
+}
 ```
+
+함수 표현식은 변수호이스팅 법칙을 따르며, var로 선언시에는 func가 undefined이라서 호출이 안되고 const, let 선언시에는 referenceError 라 호출이 불가능하다. 
 
