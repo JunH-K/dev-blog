@@ -25,6 +25,7 @@
   * [프로토타입](javascript/undefined/undefined-3.md)
   * [클로저](javascript/undefined/undefined-4.md)
   * [스코프](javascript/undefined/undefined-5.md)
+  * [호이스팅](javascript/undefined/undefined-6.md)
 * [ECMAScript 6](javascript/let-const/README.md)
   * [클래스 \(Class\)](javascript/let-const/class.md)
   * [let, const](javascript/let-const/let-const.md)
