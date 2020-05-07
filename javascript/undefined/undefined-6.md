@@ -58,5 +58,5 @@ const func = function() {
 }
 ```
 
-함수 표현식은 변수호이스팅 법칙을 따르며, var로 선언시에는 func가 undefined이라서 호출이 안되고 const, let 선언시에는 referenceError 라 호출이 불가능하다. 
+함수 표현식은 변수 호이스팅 법칙을 따르며, var로 선언시에는 func가 undefined이라서 호출이 안되고 const, let 선언시에는 referenceError 라 호출이 불가능하다. 
 
