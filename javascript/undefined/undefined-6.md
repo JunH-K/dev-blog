@@ -40,7 +40,7 @@ if (1) {
 > 함수선언식
 
 ```javascript
-console.log(func());
+console.log(func()); //javascript
 
 function func() {
   return 'javascript';
@@ -52,7 +52,7 @@ function func() {
 > 함수표현식
 
 ```javascript
-console.log(func());
+console.log(func()); //ReferenceError
 const func = function() {
   return 'javascript';
 }
