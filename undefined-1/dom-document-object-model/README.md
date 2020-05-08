@@ -1,4 +1,6 @@
-# Dom\( Document Object Model\)
+# DOM\( Document Object Model\)
+
+> 문서 객체 모델 \(Dom\)
 
 브라우저랜더링 엔진이 HTML를 파싱하여 브라우저가 이해할 수 있는 구조로 메모리에 올리는데 이것을 DOM이라고 한다. 모든 요소를 객체로 만들고 부모자식 관계를 표현할 수 있는 트리구조로 구성한다. 
 

@@ -45,7 +45,8 @@
 
 ## 브라우저와 자바스크립트 <a id="undefined-1"></a>
 
-* [Dom\( Document Object Model\)](undefined-1/dom-document-object-model.md)
+* [DOM\( Document Object Model\)](undefined-1/dom-document-object-model/README.md)
+  * [DOM API](undefined-1/dom-document-object-model/dom-api.md)
 
 ## Node.js
 
