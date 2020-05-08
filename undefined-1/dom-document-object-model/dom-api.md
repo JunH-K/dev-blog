@@ -4,7 +4,29 @@
 
 > DOM 요소 생성하기
 
+* createElement\(태그이름\)
 
+태그이름으로 노드를 생성한다.  
+return : HTMLElement 상속받은 객체
+
+* createTextNode\(문자열\)
+
+텍스트 노드를 생성한다.  
+return : text 객
+
+* appendChild\(Node\)
+
+인자로 전달한 노드를 자식노드로 추가한다.  
+return : 추가한 노
+
+```javascript
+const div = document.createElement('div');
+const text = document.createTextNode('자바스크립트');
+div.appendChild(text);
+document.body.appendChild(div);
+```
+
+div 노드를 생성하고 text객체를 div에 추가한 후 body에 div를 자식노드로 추가한다.
 
 
 
