@@ -73,3 +73,40 @@ console.log(js.id); //js
 
 반환된 객체 프로퍼티로 id에 접근하면 id인 js를 가져올 수 있다.
 
+* document.querySelector\(cssSelector\)
+
+위 방법말고 css 선택자로 가져올 수 도 있다. byId 접근은 Id로만 접근이 가능한데  querySelector은 css선택자로 다 가능하다.
+
+{% tabs %}
+{% tab title="javascript" %}
+```javascript
+const jsId = document.querySelector("#js");
+const jsClass = document.querySelector(".js");
+const jsTag = document.querySelector("div");
+console.log(jsId.id); //js
+console.log(jsClass.id); //js
+console.log(jsTag.id); //js
+
+```
+{% endtab %}
+
+{% tab title="html" %}
+```markup
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="js" class="js">자바스크립트</div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
+
+```
+{% endtab %}
+{% endtabs %}
+
