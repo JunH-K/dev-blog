@@ -49,5 +49,27 @@ setTimeout(() => {
 
 1초 후 body에 추가한 div 자식노드를 제거한다.
 
+> DOM 요소에 접근하기
 
+* document.getElementById\(id\)
+
+id 어트리뷰트로 요소를 한 개 선택한다. 여러개 있다면 첫번째 요소 반환한다.
+
+{% tabs %}
+{% tab title="javascript" %}
+```javascript
+const js = document.getElementById('js');
+console.log(js.id); //js
+```
+{% endtab %}
+
+{% tab title="html" %}
+```markup
+<div id='js'>자바스크립트</div>
+
+```
+{% endtab %}
+{% endtabs %}
+
+반환된 객체 프로퍼티로 id에 접근하면 id인 js를 가져올 수 있다.
 
