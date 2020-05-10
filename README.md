@@ -4,7 +4,7 @@ description: '#자바스크립트#리액트#프론트엔드#html#css#react#node.
 
 # 프론트엔드 기술 저장소
 
-[![HitCount](http://hits.dwyl.com/JunH-K/https://githubcom/JunH-K/react-gitbook.svg)](http://hits.dwyl.com/JunH-K/https://githubcom/JunH-K/react-gitbook)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FJunH-K%2Ffront-end-repo)](https://hits.seeyoufarm.com)
 
 > 소개
 
