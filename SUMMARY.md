@@ -27,12 +27,13 @@
   * [스코프](javascript/undefined/undefined-5.md)
   * [호이스팅](javascript/undefined/undefined-6.md)
 * [ECMAScript 6](javascript/let-const/README.md)
-  * [클래스 \(Class\)](javascript/let-const/class.md)
   * [let, const](javascript/let-const/let-const.md)
   * [화살표 함수](javascript/let-const/undefined.md)
   * [구조분해할당](javascript/let-const/undefined-1.md)
   * [Promise](javascript/let-const/promise.md)
   * [템플릿 문자열 표현식](javascript/let-const/undefined-2.md)
+  * [이터레이션](javascript/let-const/undefined-3.md)
+  * [클래스 \(Class\)](javascript/let-const/class.md)
 
 ## 객체지향설계
 
