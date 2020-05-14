@@ -138,3 +138,27 @@ console.log(arr.flat(2)); //[1, 2, 3, 4, 5, 6]
 console.log(arr.flat(Infinity)); //[1, 2, 3, 4, 5, 6]
 ```
 
+* Array.from
+
+유사배열이나 이터러블객체를 복사해 배열을 만든다.
+
+```javascript
+function func() {
+  console.log(arguments[0]); //1 index 접근
+  console.log(Array.isArray(arguments)); //false
+
+  /*   arguments.map((value) => { //없는 map 메서드
+      return value;
+    }); 
+    */
+
+  Array.from(arguments).map((value) => { //배열로 변환 후 map 사용가능
+    console.log(value); //1,2,3
+  });
+
+}
+
+func(1, 2, 3);
+
+```
+
