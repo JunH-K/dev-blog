@@ -125,3 +125,16 @@ console.log(Array.isArray(new Array(1,2,3))); //true
 
 ```
 
+* Array.prototype.flat
+
+배열의 중첩배열을 펼치는? 메소드이다. flat 인자는 펼치는 깊이를 입력한다.
+
+```javascript
+const arr = [1,2,[3,4,[5,6]]];
+console.log(arr.flat()); //[1, 2, 3, 4, [5, 6]]
+console.log(arr.flat(1)); //[1, 2, 3, 4, [5, 6]]
+
+console.log(arr.flat(2)); //[1, 2, 3, 4, 5, 6]
+console.log(arr.flat(Infinity)); //[1, 2, 3, 4, 5, 6]
+```
+
