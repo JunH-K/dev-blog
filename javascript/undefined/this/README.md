@@ -84,7 +84,30 @@ function Person(name) {
 
 위 함수를 new 키워드로 호출하면 생성자로 작동하고 그냥 호출하면 일반함수로써 호출된다. 일반 함수로호출되면 this가 의미가 없어진다. 왜냐하면 누가 호출하냐에 따라 달라지기때문에 생성자로 쓰일때 this 가  작성의미 대로 쓰일 수 있다.
 
-결론은 this는 고정이 아니라 어디에서 쓰는지 누가 호출했느냐에 따라 달라지는것을 알고 있어야한다.  
+결론은 this는 고정이 아니라 어디에서 쓰는지 누가 호출했느냐에 따라 달라지는것을 알고 있어야한다.
+
+
+
+> 콜백 함수의 this
+
+콜백함수에서 this는 또 달라진다.
+
+```javascript
+const obj = {
+  language: 'javascript',
+  getLanguage: function() {
+    console.log(this.language); //javascript
+    setTimeout(function() {
+      console.log(this.language); //undefined
+    }, 0);
+  }
+}
+
+obj.getLanguage();
+
+```
+
+객체내부에서 this키워드는 객체자신을 가리킨다. 하지만 콜백함수에서 this는 객체자신을 가리키는것이 아니라 위에서 보았듯이 누가 호출했냐에 따라 달라지기 때문 콜백함수의 this는 브라우저기준 window로 바뀌면서 undefined가 출력된다.  
 
 
 
