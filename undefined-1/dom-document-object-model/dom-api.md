@@ -12,7 +12,7 @@ return : HTMLElement 상속받은 객체
 * createTextNode\(문자열\)
 
 텍스트 노드를 생성한다.  
-return : text 객
+return : text 객체 
 
 * appendChild\(Node\)
 
