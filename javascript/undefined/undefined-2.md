@@ -162,3 +162,15 @@ func(1, 2, 3);
 
 ```
 
+* Array.prototype.fill
+
+정적인 값 하나를 배열 요소 값으로 채운다. 배열을 임의로 만들고 값을 채울때 쓰면된다. 
+
+```javascript
+const arr = new Array(100);
+console.log(arr); //[undefined...] 100개
+arr.fill(1);
+console.log(arr); //[1...] 100개
+
+```
+
