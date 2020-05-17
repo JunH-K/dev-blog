@@ -24,4 +24,6 @@ description: '#자바스크립트#리액트#프론트엔드#html#css#react#node.
   * [객체 지향 설계 원칙](undefined/undefined/)
 * 브라우저와 자바스크립트
   * [Dom](undefined-1/dom-document-object-model/)
+  
+싱크오류
 
