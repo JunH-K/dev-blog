@@ -202,7 +202,9 @@ function desc(a, b) {
   return b - a;
 }
 
-console.log(arr.sort(desc));
+console.log(arr.sort(asc)); //[1, 2, 2, 3, 5]
+console.log(arr.sort(desc)); //[5, 3, 2, 2, 1]
+
 ```
 
 비교함수 반환값이 
