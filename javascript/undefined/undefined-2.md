@@ -177,3 +177,39 @@ arr.fill(1);
 console.log(arr); //[1...] 100개
 ```
 
+* Array.prototype.sort \(O\)
+
+배열의 요소를 정렬한다.
+
+```javascript
+const arr = [3,1,2,5,2];
+console.log(arr.sort()); //[1, 2, 2, 3, 5]
+console.log(arr); //[1, 2, 2, 3, 5]
+```
+
+기본적으로 오름차순 정렬한다. 
+
+sort 인자로 비교 함수를 정의할 수 있다.
+
+```javascript
+const arr = [3, 1, 2, 5, 2];
+
+function asc(a, b) {
+  return a - b;
+}
+
+function desc(a, b) {
+  return b - a;
+}
+
+console.log(arr.sort(desc));
+```
+
+비교함수 반환값이 
+
+음수이면 a가 b 앞에  
+양수이면 a가 b 뒤로  
+0이면 그대로 
+
+규칙으로 정렬한다.
+
