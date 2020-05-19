@@ -25,6 +25,7 @@
   * [프로토타입](javascript/undefined/undefined-3.md)
   * [클로저](javascript/undefined/undefined-4.md)
   * [스코프](javascript/undefined/undefined-5.md)
+  * [함수](javascript/undefined/undefined-7.md)
   * [호이스팅](javascript/undefined/undefined-6.md)
 * [ECMAScript 6](javascript/let-const/README.md)
   * [let, const](javascript/let-const/let-const.md)
@@ -50,6 +51,7 @@
 
 * [DOM\( Document Object Model\)](undefined-1/dom-document-object-model/README.md)
   * [DOM API](undefined-1/dom-document-object-model/dom-api.md)
+  * [이벤트 \(Event\)](undefined-1/dom-document-object-model/event.md)
 
 ## Node.js
 
