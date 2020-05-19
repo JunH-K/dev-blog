@@ -4,7 +4,7 @@
 
 > 자바스크립트 객체 정의하기
 
-class 키워드 없이 구현하
+class 키워드 없이 구현하기
 
 ```javascript
 function Person(name) {
