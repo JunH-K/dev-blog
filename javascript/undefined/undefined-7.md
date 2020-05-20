@@ -4,6 +4,8 @@
 
 > 함수 선언
 
+function 키워드로 이름이 있는 함수를 만드는것이 함수선언식이라 한다.
+
 ```javascript
 function print(){
     return 'hello';
@@ -16,6 +18,20 @@ const result = print();
 * 함수몸체 : '{' 로 시작 '}'로 끝.
 * return : 함수를 실행시 돌려주는 값. 기본값은 undefined 
 * result : print\(\);구문으로 함수를 실행하고 'hello'를 돌려받아 result 변수에 할당한다.
+
+> 함수 표현식
+
+이름이 없는 함수를 만들고 변수에 할당하는 것을 함수 표현식이라고 한다. 선언식과 동작이 같지만 선언 이전에는 호출 할 수 없다.
+
+```javascript
+var print = function(){
+    return 'hello';
+}
+
+const result = print();
+```
+
+
 
 > 매개변수
 
