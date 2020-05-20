@@ -14,6 +14,6 @@ const result = print();
 
 * 함수이름 : print
 * 함수몸체 : '{' 로 시작 '}'로 끝.
-* return : 함수를 실행시 돌려주는 값.
+* return : 함수를 실행시 돌려주는 값. 기본값은 undefined 
 * result : print\(\);구문으로 함수를 실행하고 'hello'를 돌려받아 result 변수에 할당한다.
 
