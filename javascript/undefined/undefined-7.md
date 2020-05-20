@@ -26,8 +26,8 @@ const result = print();
 ```javascript
 const print = function(){
     return 'hello';
-}
-;
+} 
+
 ```
 
 
