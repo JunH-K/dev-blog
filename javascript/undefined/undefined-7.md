@@ -24,11 +24,10 @@ const result = print();
 이름이 없는 함수를 만들고 변수에 할당하는 것을 함수 표현식이라고 한다. 선언식과 동작이 같지만 선언 이전에는 호출 할 수 없다.
 
 ```javascript
-var print = function(){
+const print = function(){
     return 'hello';
 }
-
-const result = print();
+;
 ```
 
 
