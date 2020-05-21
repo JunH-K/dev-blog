@@ -63,5 +63,6 @@
   * [1.1 웹은 HTTP로 나타낸다.](1./1.1-http-..md)
   * [1.2 HTTP 탄생과 성장](1./1.2-http.md)
   * [1.3 네트워크 기본 TCP/IP](1./1.3-tcp-ip.md)
-* [7. 웹을 안전하게 HTTPS](7.-https.md)
+* [7. 웹을 안전하게 HTTPS](7.-https/README.md)
+  * [7.1 HTTP의 약점](7.-https/7.1-http.md)
 
