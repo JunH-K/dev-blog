@@ -49,7 +49,7 @@
 
 ## 브라우저와 자바스크립트 <a id="undefined-1"></a>
 
-* [DOM\( Document Object Model\)](undefined-1/dom-document-object-model/README.md)
+* [Document Object Model](undefined-1/dom-document-object-model/README.md)
   * [DOM API](undefined-1/dom-document-object-model/dom-api.md)
   * [이벤트 \(Event\)](undefined-1/dom-document-object-model/event.md)
 
