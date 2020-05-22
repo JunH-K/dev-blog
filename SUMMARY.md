@@ -59,12 +59,13 @@
 
 ## HTTP Network
 
-* [1. 웹과 네트워크 기본](1./README.md)
-  * [1.1 웹은 HTTP로 나타낸다.](1./1.1-http-..md)
-  * [1.2 HTTP 탄생과 성장](1./1.2-http.md)
-  * [1.3 네트워크 기본 TCP/IP](1./1.3-tcp-ip.md)
-  * [1.4 HTTP와 관계가 깊은 프로토콜 IP/TCP/DNS](1./1.4-http-ip-tcp-dns.md)
-  * [1.5](1./1.5.md)
-* [7. 웹을 안전하게 HTTPS](7.-https/README.md)
-  * [7.1 HTTP의 약점](7.-https/7.1-http.md)
+* [HTTP Network](http-network-1/README.md)
+  * [1. 웹과 네트워크 기본](http-network-1/1./README.md)
+    * [1.1 웹은 HTTP로 나타낸다.](http-network-1/1./1.1-http-..md)
+    * [1.2 HTTP 탄생과 성장](http-network-1/1./1.2-http.md)
+    * [1.3 네트워크 기본 TCP/IP](http-network-1/1./1.3-tcp-ip.md)
+    * [1.4 HTTP와 관계가 깊은 프로토콜 IP/TCP/DNS](http-network-1/1./1.4-http-ip-tcp-dns.md)
+    * [1.5](http-network-1/1./1.5.md)
+  * [7. 웹을 안전하게 HTTPS](http-network-1/7.-https/README.md)
+    * [7.1 HTTP의 약점](http-network-1/7.-https/7.1-http.md)
 
