@@ -19,7 +19,6 @@ description: '#자바스크립트#리액트#프론트엔드#html#css#react#node.
 * Javascript
   * [자바스크립트 기본](javascript/undefined/)
   * [ECMAScript 6](javascript/let-const/)
-* TypeScript
 * 객체 지향 설계
   * [객체 지향 설계 원칙](undefined/undefined/)
 * 브라우저와 자바스크립트 
