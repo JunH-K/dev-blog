@@ -1,4 +1,4 @@
-# HTTP Network
+# HTTP 기본
 
 1. [웹 네트워크 기본](1./)
 2. 프로토콜 HTTP

@@ -23,5 +23,5 @@ description: '#자바스크립트#리액트#프론트엔드#html#css#react#node.
   * [객체 지향 설계 원칙](undefined/undefined/)
 * 브라우저와 자바스크립트 
   * [D](undefined-1/dom-document-object-model/)ocument Object Model \(Dom\)
-* [HTTP Network](http-network-1/)
+* [HTT](http-network-1/)P 기
 

@@ -59,7 +59,7 @@
 
 ## HTTP
 
-* [HTTP Network](http-network-1/README.md)
+* [HTTP 기본](http-network-1/README.md)
   * [1. 웹과 네트워크 기본](http-network-1/1./README.md)
     * [1.1 웹은 HTTP로 나타낸다.](http-network-1/1./1.1-http-..md)
     * [1.2 HTTP 탄생과 성장](http-network-1/1./1.2-http.md)
