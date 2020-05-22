@@ -57,7 +57,7 @@
 
 * [node.js 버전 관리](node.js/10.md)
 
-## HTTP Network
+## HTTP
 
 * [HTTP Network](http-network-1/README.md)
   * [1. 웹과 네트워크 기본](http-network-1/1./README.md)
