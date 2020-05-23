@@ -10,9 +10,6 @@ description: '#자바스크립트#리액트#프론트엔드#html#css#react#node.
 
 프론트엔드 개발 기술 저장소 입니다.
 
-[GitBook ➡ Go](https://k-developer.gitbook.io/dev/)  
-[GitHub ➡ Go](https://github.com/JunH-K/dev-blog)
-
 > 목차
 
 * [React.js](react/react-hook/)
