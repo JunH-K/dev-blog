@@ -5,5 +5,6 @@
 1.3 [네트워크 기본 TCP/IP.](1.3-tcp-ip.md)  
 1.4 [HTTP와 관계가 깊은 프로토콜.](1.4-http-ip-tcp-dns.md)  
 [1.5 이름 해결 담당 DNS](1.5.md)  
-[1.6 각각과 HTTP와의 관계](1.6-http.md)
+[1.6 각각과 HTTP와의 관계](1.6-http.md)  
+1.7 URI와 URL
 
