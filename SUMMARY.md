@@ -72,6 +72,7 @@
     * [2.1 HTTP는 클라이언트와 서버간에 통신을 한다.](http-network-1/2.-http/2.1-http-..md)
     * [2.2 리퀘스트와 리스폰스를 교환하여 성립](http-network-1/2.-http/2.2.md)
     * [2.3 상태를 유지하지 않는 프로토콜 HTTP](http-network-1/2.-http/2.3-http.md)
+    * [2.4 리퀘스트 URI로 리소스 식별](http-network-1/2.-http/2.4-uri.md)
   * [7. 웹을 안전하게 HTTPS](http-network-1/7.-https/README.md)
     * [7.1 HTTP의 약점](http-network-1/7.-https/7.1-http.md)
 
