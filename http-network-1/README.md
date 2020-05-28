@@ -1,7 +1,7 @@
 # HTTP 기본
 
 1. [웹 네트워크 기본](1./)
-2. 프로토콜 HTTP
+2. [프로토콜 HTTP](2.-http.md)
 3. HTTP 정보는 HTTP 메시지
 4. HTTP 상태코드
 5. HTTP와 연계하는 웹 서버

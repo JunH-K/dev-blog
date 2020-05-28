@@ -68,7 +68,7 @@
     * [1.5 이름 해결 담당 DNS](http-network-1/1./1.5.md)
     * [1.6 각각과 HTTP와의 관계](http-network-1/1./1.6-http.md)
     * [1.7 URI와 URL](http-network-1/1./1.7-uri-url.md)
-  * [2. 간단한 프로토콜 HTTP](http-network-1/2.-http.md)
+  * [2. 프로토콜 HTTP](http-network-1/2.-http.md)
   * [7. 웹을 안전하게 HTTPS](http-network-1/7.-https/README.md)
     * [7.1 HTTP의 약점](http-network-1/7.-https/7.1-http.md)
 
