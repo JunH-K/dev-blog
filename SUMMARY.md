@@ -70,6 +70,7 @@
     * [1.7 URI와 URL](http-network-1/1./1.7-uri-url.md)
   * [2. 프로토콜 HTTP](http-network-1/2.-http/README.md)
     * [2.1 HTTP는 클라이언트와 서버간에 통신을 한다.](http-network-1/2.-http/2.1-http-..md)
+    * [2.2 리퀘스트와 리스폰스를 교환하여 성립](http-network-1/2.-http/2.2.md)
   * [7. 웹을 안전하게 HTTPS](http-network-1/7.-https/README.md)
     * [7.1 HTTP의 약점](http-network-1/7.-https/7.1-http.md)
 
