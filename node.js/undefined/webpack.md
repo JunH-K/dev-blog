@@ -26,5 +26,5 @@ package.json과 같은 레벨에 src/index.js 파일을 생성하고 웹팩을 �
 npx webpack --mode development
 ```
 
-아무설정이 없으면 기본으로 dist 폴더에 main.js 가 생성된다.
+아무설정이 없으면 기본으로 dist 폴더에 번들링된 main.js 가 생성된다.
 
