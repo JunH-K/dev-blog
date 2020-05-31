@@ -32,3 +32,26 @@ npx webpack --mode development
 
 아무설정이 없으면 기본으로 dist 폴더에 번들링된 main.js 가 생성된다.
 
+> 웹팩 기본 사용법
+
+기본적으로 모듈의 시작이 되는 파일을 작성한다. src/index.js 이 시작파일이고 엔트리 파일이라고 한다. 이 시작점 파일에서 다른 모듈을 불러와 보자.먼저 불러올 모듈을 작성하고 index.js 파일에서 불러온다.
+
+```javascript
+// src/hello.js
+export default function hello() {
+  return '헬로우 웹팩';
+}
+```
+
+```javascript
+// src//index.js
+import hello from "./hello";
+
+hello();
+
+```
+
+> package.json 에 스크립트 추가
+
+webpack 실행 스크립트를 package.json에 작성하여 편하 실행한다.
+
