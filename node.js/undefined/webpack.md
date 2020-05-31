@@ -8,7 +8,7 @@ description: 번들러 webpack
 
 소스코드 [https://github.com/JunH-K/webpack-example](https://github.com/JunH-K/webpack-example)
 
-> webpack 설치 및 실행
+### webpack 설치 및 실행
 
 빈 프로젝트를 만들고 커맨드를 실행하여 설치, 실행한다. node.js 설치가 되어있어야 하며 없다면 설치한다.
 
