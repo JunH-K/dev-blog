@@ -18,7 +18,7 @@
 
 데이터타입은 원시타입 6개 객체타입1개가 있다.
 
-* number
+### Number
 
 다른언어와 달리 float double건 없고 number 타입으로 모든숫자를 표현한다.
 
@@ -38,9 +38,7 @@ console.log(typeof nan);
 
 typeof로 검사하면 위 모든값은 "number" 이다.
 
-
-
-* 문자열
+### String
 
 ```javascript
 const str = "쌍따옴표 문자열";
@@ -72,7 +70,7 @@ console.log(typeof num); //string
 
 ```
 
-* null
+### Null
 
 특별한 타입이며 null은 null값만 가질수 있다. 값이 없다는걸 명시적으로 표현할때 쓰인다. undefined와 같이 뭔가 없다는걸 표현하는것이 비슷하지만 undefined는 선언하고 값을 할당하지 않을때 시스템에서 자동으로 초기화해주는 값이다. 따라서 개발자가 명시적으로 값이 없다라는걸 표현할 때에만 null을 쓰는것이 일관성 있게 쓰일 수 있을 것같다.
 
@@ -97,7 +95,7 @@ if (obj === null) {
 }
 ```
 
-* undefined
+### undefined
 
 ```javascript
 let a;
@@ -114,9 +112,7 @@ console.log(obj.a); //undefined
 
 특별한 타입이며 undefined는 undefined만 가질 수 있다. 변수를 선언하거나 객체에 없는 프로퍼티에 접근했을때 자바스크립트 엔진이 명시적으로 undefined를 할당한다. 고로 개발자가 선언을 했지만 값을 초기화 안한 변수라고 알 수 있다. 의도적으로 값을 할당하지 않는것을 표현 할땐 null을 할당한다. 그래야 의도적인지 아닌지 판단할 수 있다.
 
-
-
-* boolean
+### boolean
 
 논리적 참과 거짓을 나타낸다. 주로 조건문에 쓰이며, 변수명은 대체로 isXXXX로 명명한다.  
 각 데이터 값 앞에 \(!\) 느낌표 논리NOT 연자를 써서 boolean 데이터타입으로 변환할 수 있다.  
@@ -137,11 +133,7 @@ console.log(![]); //false
 console.log(!function func(){}); //false
 ```
 
-
-
-
-
-* symbol
+### symbol
 
 새로추가된 원시타입 값이며 Symbol\(\) 로 생성한 값은 유일한 값이라고 한다. 이 값은 객체 프로퍼티로 사용되며 유일한 목적이라고 한다. 
 
@@ -161,7 +153,9 @@ console.log(obj[s1]); //1
 
 ```
 
-* object 객체타입
+### object 객체 타입
+
+
 
 원시타입을 제외한 모든것이 객체이다. 값을 담는 컨테이너 역할을 한다. 내용물은 바뀔수 있지만 컨테이너는 바뀌지 않는다. 객체안의 멤버들은 프로퍼티라고 부른다. 객체 생성은 리터럴 {} 문법으로 생성하는것이 일반적이다.
 
