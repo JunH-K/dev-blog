@@ -55,7 +55,7 @@ hello();
 
 ```
 
-> package.json 에 스크립트 추가
+### package.json에 스크립트 추가
 
 webpack 실행 스크립트를 package.json에 작성하여 편하 실행한다.
 
@@ -100,7 +100,11 @@ npm run bundle, npm run production으로 한다.
 
 ```
 
-> 번들링 자동화
+#### 번들링
+
+
+
+
 
 현재는 코드 수정 시 npm run bundle을 재실행해야 다시 번들 파일이 만들어지기 때문에 번거롭다. 자동으로 번들링되게 옵션을 추가한다.
 
