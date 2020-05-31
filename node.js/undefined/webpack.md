@@ -75,3 +75,24 @@ npm run bundle, npm run production으로 한다.
   * 코드 압축, 난독화
   * 최적화를 통해 번들크기를 줄인다.
 
+> 번들링된 js 파일을 index.html에서 불러온다.
+
+ 여러 js 파일이 하나의 main.js 로 만들어 졌기 때문에 index.html에서 main.js 한개 파일만 불러오면 된다.
+
+/index.html
+
+```markup
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+<script src="./dist/main.js"></script>
+</body>
+</html>
+
+```
+
