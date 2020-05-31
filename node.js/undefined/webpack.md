@@ -1,5 +1,5 @@
 ---
-description: 번들러 webpack
+description: 번들러 웹팩 설정하기
 ---
 
 # webpack 설정
