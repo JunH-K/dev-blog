@@ -56,7 +56,7 @@
 ## Node.js
 
 * [번들러](node.js/undefined/README.md)
-  * [Webpack](node.js/undefined/webpack.md)
+  * [webpack 설정](node.js/undefined/webpack.md)
 * [node.js 버전 관리](node.js/10.md)
 
 ## HTTP
