@@ -55,3 +55,23 @@ hello();
 
 webpack 실행 스크립트를 package.json에 작성하여 편하 실행한다.
 
+package.json 
+
+```javascript
+  "scripts": {
+    "bundle": "webpack --mode=development",
+    "production": "webpack --mode=production"
+  },
+```
+
+webpack 오른쪽 mode는 실행시 옵션이다. 옵션마다 다르게 동작한다. 실행은  
+npm run bundle, npm run production으로 한다.
+
+* development
+  * 개발용 모드
+  * 소스맵 제공
+* production 
+  * 배포용 모드
+  * 코드 압축, 난독화
+  * 최적화를 통해 번들크기를 줄인다.
+
