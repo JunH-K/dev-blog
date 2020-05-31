@@ -96,3 +96,18 @@ npm run bundle, npm run production으로 한다.
 
 ```
 
+> 번들링 자동화
+
+현재는 코드 수정 시 npm run bundle을 재실행해야 다시 번들 파일이 만들어지기 때문에 번거롭다. 자동으로 번들링되게 옵션을 추가한다.
+
+package.json
+
+```javascript
+  "scripts": {
+    "bundle": "webpack --watch --mode=development",
+    "production": "webpack --mode=production"
+  },
+```
+
+추가 후 npm run bundle을 재 실행하면 이제는 js 파일 수정시 자동으로 재컴파일 된다.
+
