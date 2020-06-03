@@ -2,9 +2,7 @@
 
 function 키워드 대신 화살표로 간략한 함수 표현이 가능하다. 익명함수로만 사용가능하고  함수표현식으로 사용한다.
 
-
-
-> 다양한 선언 방식
+### 화살표 함수 선언방식
 
 function 키워드로 선언하고 화살표 함수로 바꿔보자.
 
@@ -38,7 +36,7 @@ function 키워드로 선언하고 화살표 함수로 바꿔보자.
   ---------------------
 ```
 
-> function 키워드 선언과의 차이점
+### function 키워드 선언과 차이점
 
 * this
 
@@ -111,7 +109,7 @@ obj.func()();
 func 함수를 화살표 함수로 선언하면?  
 func 함수의 this는 window이고 고로 this는 window로 바뀐다.
 
-* 이벤트 callback 함수의 this
+### 이벤트 callback 함수의 this
 
 ```javascript
 const btn = document.querySelector('#btn');
@@ -127,7 +125,7 @@ btn.addEventListener('click', () => {
 
 function 콜백함수 내의 this는 button을 가리키지만, 화살표 함수의 this는 상위컨텍스트 window를 가리킨다.
 
-* **arguments**
+### **화살표 함수 arguments**
 
 ```javascript
 function func (x){
@@ -171,7 +169,7 @@ func(1, 2);
 
 화살표 함수로 똑같이 구현한다면  Spread 문법으로 구현 할 수 있다.
 
-* call, apply, bind
+### call, apply, bind
 
 명시적으로 this를 바인딩 해주는 함수이다.
 
