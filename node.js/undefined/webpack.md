@@ -117,3 +117,41 @@ package.json
 
 추가 후 npm run bundle을 재 실행하면 이제는 js 파일 수정시 자동으로 재컴파일 된다.
 
+### 웹팩 설정파일 다루기
+
+번들링에 관한 옵션을 따로 설정할 수 있다.
+
+#### 설정 파일 생성 및 사용
+
+프로젝트 루트에서 webpack.config.js 파일을 생성한다. 그후 모듈을 내보낸다. 번들링을 진행하면 옵션에따라 다르게 번들링 파일이 생성된다.
+
+#### 설정 옵션
+
+* Entry
+
+모듈의 첫 시작점. 시작점을 기준으로 index.js 에 포함된 모듈과 라이브러리가 모 번들링 된다. 
+
+/webpack.config.js
+
+```javascript
+module.exports = {
+  entry: './src/index.js'
+};
+```
+
+* Output
+
+번들링 된 파일 위치와 이름을 지정한다. npm run bundle 을 실행하면 dist/main.js로 번들링된 파일이 생성된다. filename을 바꾸면 새로운 파일이 생성되며 기존에 번들링된 파일은 지워지지 않는다. 지워주는 모듈을 설치하면 이전 번들링된 파일을 자동으로 지울 수 있다.
+
+```javascript
+const path = require('path');
+
+module.exports = {
+  entry: './src/index.js',
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'main.js'
+  }
+};
+```
+
