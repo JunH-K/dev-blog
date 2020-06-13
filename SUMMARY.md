@@ -78,6 +78,7 @@
     * [2.5  HTTP 메소드](http-network-1/2.-http/2.5-http.md)
     * [2.6 메소드 사용](http-network-1/2.-http/2.6.md)
     * [2.7 지속연결로 접속량 절약](http-network-1/2.-http/2.7.md)
+    * [2.8 쿠키를 사용한 상태관리](http-network-1/2.-http/2.8.md)
   * [7. 웹을 안전하게 HTTPS](http-network-1/7.-https/README.md)
     * [7.1 HTTP의 약점](http-network-1/7.-https/7.1-http.md)
 
