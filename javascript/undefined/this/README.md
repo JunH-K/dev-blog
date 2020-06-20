@@ -6,7 +6,7 @@
 
 
 
-> 생성자에서 this
+### 생성자에서 this
 
 가장 이상적인 this의 느낌.. .생성자에서 this는 객체자신을 가리킨다.
 
@@ -26,7 +26,7 @@ console.log(p1.getName()); //JS
 
 
 
-> 호출 방식에 따라 달라지는 this
+### 호출 방식에 따라 달라지는 this
 
 ```javascript
 function Person(name) {
@@ -70,7 +70,7 @@ console.log(obj.getName()); //안녕
 
 getName을 obj 프로퍼티로 추가한 후 obj.getName을 호출한다. 위에 논리대로 누가 호출했냐에 따라서 this는 바뀌기 때문에 obj가 getName을 호출하게 되고 this -&gt; obj   obj.name 값이 출력된다.
 
-> 일반 함수에서 this
+### 일반 함수에서 this
 
 ```javascript
 function Person(name) {
@@ -86,9 +86,7 @@ function Person(name) {
 
 결론은 this는 고정이 아니라 어디에서 쓰는지 누가 호출했느냐에 따라 달라지는것을 알고 있어야한다.
 
-
-
-> 콜백 함수의 this
+### 콜백 함수의 this
 
 콜백함수에서 this는 또 달라진다.
 
