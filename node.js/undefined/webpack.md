@@ -155,3 +155,68 @@ module.exports = {
 };
 ```
 
+* Loaders
+
+webpack은 기본적으로 자바스크립트 파일만 인식한다. 로더는 다른 타입의 파일도 처리할 수 있도록 모듈로 변환해주는 도구이다.
+
+모듈 예시
+
+* ES2015 import
+* CommonJS의 require\(\)
+* AMD define, require
+* CSS/Sass/Less @import
+* 스타일시트 url\(\)
+* HTML의 &lt;img src&gt;
+
+css-loader를 사용하여 CSS 파일을 모듈로 사용하는 방법  
+CSS파일을 모듈화 할 수 있다. @import, url\(\)을 해석하여 모듈로 만든다.
+
+1. 로더 설치
+
+```text
+npm install -D css-loader
+```
+
+2. css 파일생성 \(src/css/style.css\)
+
+```css
+body{
+ background-color: lime;
+}
+```
+
+3. css 파일 포함하기
+
+index.js 파일에 import 구문으로 최상단에 css를 import 한다. 시작점에 포함해야 모듈로 변환된다.
+
+```text
+import './css/style.css'
+```
+
+4. webpack 로더 옵션 수정
+
+module.rules에 로더의 규칙을 정의한다. 로더명은 use에 test속성에는 해당로더를 적용하려는 파일 확장자를 정규식 형태로 지정한다.
+
+```javascript
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: 'css-loader'
+      }
+    ]
+  }
+```
+
+5. 번들링 실행
+
+```text
+npm run bundle
+```
+
+dist/main.js 를 살펴보면 style.css가 포함되어 있는것을 볼 수 있다.
+
+![](../../.gitbook/assets/image%20%282%29.png)
+
+[https://webpack.js.org/loaders/](https://webpack.js.org/loaders/)
+
