@@ -228,3 +228,38 @@ HtmlWebpackPlugin, CleanWebpackPlugin 사용법
 
 HtmlWebpackPlugin은 HTML 파일을 생성하고, script 태그로 번들링된 모든 파일을 HTML에 삽입해 준다. CleanWebpackPlugin 은 특정 폴더를 지워주는 플러그인으로 빌드 폴더를  정리할때 사용한다.
 
+1. 플러그인 설치
+
+```text
+npm install --D html-webpack-plugin clean-webpack-plugin
+```
+
+2. webpack.config.js에 추가
+
+```javascript
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
+
+module.exports = {
+  entry: './src/index.js',
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'main.js'
+  },
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: 'css-loader'
+      }
+    ]
+  },
+  plugins: [
+    new HtmlWebpackPlugin(),
+    new CleanWebpackPlugin(['dist'])
+  ]
+};
+
+```
+
