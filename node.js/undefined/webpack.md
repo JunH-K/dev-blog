@@ -239,7 +239,7 @@ npm install --D html-webpack-plugin clean-webpack-plugin
 ```javascript
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
@@ -257,9 +257,17 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin(),
-    new CleanWebpackPlugin(['dist'])
+    new CleanWebpackPlugin()
   ]
 };
 
 ```
+
+3. 번들링 실행
+
+```text
+npm run bundle
+```
+
+dist/index.html 이 생기고 main.js를 로드한다.
 
