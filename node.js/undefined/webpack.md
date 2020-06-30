@@ -220,3 +220,11 @@ dist/main.js 를 살펴보면 style.css가 포함되어 있는것을 볼 수 있
 
 [https://webpack.js.org/loaders/](https://webpack.js.org/loaders/)
 
+* Plugins
+
+플러그인은 모듈 변환 외에 더 다양한 처리를 할 수 있는 도구를 제공한다. 번들 최적화, 에셋관리등을 할 수 있다.
+
+HtmlWebpackPlugin, CleanWebpackPlugin 사용법
+
+HtmlWebpackPlugin은 HTML 파일을 생성하고, script 태그로 번들링된 모든 파일을 HTML에 삽입해 준다. CleanWebpackPlugin 은 특정 폴더를 지워주는 플러그인으로 빌드 폴더를  정리할때 사용한다.
+
