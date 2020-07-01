@@ -9,7 +9,7 @@
 * [클로저](undefined-4.md)
 * [스코프](undefined-5.md)
 * [호이스팅](undefined-6.md)
-* 함수
+* [함수](undefined-7.md)
 
 
 
