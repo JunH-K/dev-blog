@@ -88,5 +88,6 @@
 ## IDE
 
 * [Webstorm](ide/webstorm/README.md)
+  * [웹스톰 단축키](ide/webstorm/undefined-1.md)
   * [웹스톰 소스코드 특정폴더 검색 제외](ide/webstorm/undefined.md)
 
