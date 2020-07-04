@@ -2,7 +2,7 @@
 
 
 
-> 의존 역전 원칙 \(Dependency Inversion principle\)
+> 의존 역전 원칙 \(Dependency Inversion principle\) - DIP
 
 * 정의
 

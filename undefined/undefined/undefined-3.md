@@ -2,7 +2,7 @@
 
 
 
-> 인터페이스 분리 원칙 \(Interface segregation principle\)
+> 인터페이스 분리 원칙 \(Interface segregation principle\) ISP
 
 * 정의
 
