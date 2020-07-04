@@ -2,7 +2,7 @@
 
 
 
-> 개방 패쇄 원칙 \(Open closed principle\)
+> 개방 패쇄 원칙 \(Open closed principle\) - OCP
 
 * 정의
 

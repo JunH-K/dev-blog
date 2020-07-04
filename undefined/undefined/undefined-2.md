@@ -2,7 +2,7 @@
 
 
 
-> 리스코프 치환 원칙 \(Liskov substitution principle\)
+> 리스코프 치환 원칙 \(Liskov substitution principle\) - LSP
 
 * 정의
 
