@@ -1,6 +1,6 @@
 # 단일 책임 원칙
 
-> 단일 책임 원칙\(Single responsibility principle\)
+> 단일 책임 원칙\(Single responsibility principle\) - SRP
 
 * 정의
 
