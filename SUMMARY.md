@@ -83,6 +83,7 @@
     * [2.8 쿠키를 사용한 상태관리](http-network-1/2.-http/2.8.md)
   * [3. HTTP 정보는 HTTP 메시지에 있다.](http-network-1/3.-http-http-./README.md)
     * [3.1 HTTP 메시지](http-network-1/3.-http-http-./3.1-http.md)
+    * [3.2 리퀘스트 메시지와 리스폰스 메시지 구조](http-network-1/3.-http-http-./3.2.md)
   * [7. 웹을 안전하게 HTTPS](http-network-1/7.-https/README.md)
     * [7.1 HTTP의 약점](http-network-1/7.-https/7.1-http.md)
     * [7.2 HTTP+암호화+인증+완전성보호 = HTTPS](http-network-1/7.-https/7.2-http+-+-+-https.md)
