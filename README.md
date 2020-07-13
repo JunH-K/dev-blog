@@ -25,7 +25,7 @@ description: '#자바스크립트#리액트#프론트엔드#html#css#react#node.
 * Node.js
   * [node.js 버전관리](node.js/10.md)
   * [번들러](node.js/undefined/)
-* Git
+* [Git](git/git.md)
 * IDE
   * [Webstorm](ide/webstorm/)
 
