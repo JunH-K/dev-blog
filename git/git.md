@@ -8,7 +8,7 @@ git init
 
 명령어 실행시 .git 폴더가 생성된다.
 
-### Git으로 관리하는 파일 상태확
+### Git으로 관리하는 파일 상태확인 
 
 ```text
 git status
