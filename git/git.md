@@ -1,6 +1,6 @@
 # Git 기초 명령어
 
-### Git 저장소 초기
+### Git 저장소 초기화
 
 ```text
 git init
