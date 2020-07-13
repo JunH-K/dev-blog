@@ -98,5 +98,5 @@
 
 ## GIT
 
-* [git 기초 명령어](git/git.md)
+* [Git 기초 명령어](git/git.md)
 
