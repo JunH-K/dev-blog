@@ -1,6 +1,6 @@
 # Git 기초 명령어
 
-### Git 저장소 초기화
+### Git 저장소 초기화 \(git init\)
 
 ```bash
 git init
@@ -8,13 +8,13 @@ git init
 
 명령어 실행시 .git 폴더가 생성된다.
 
-### Git으로 관리하는 파일 상태확인 
+### Git으로 관리하는 파일 상태확인 \(git status\)
 
 ```text
 git status
 ```
 
-### 파일 추적하기 
+### 파일 추적하기 \(git add\)
 
 ```text
 git add filename
