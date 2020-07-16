@@ -22,3 +22,15 @@ git add filename
 
 명령어를 실행하면 깃이 추적하는 파일이 된다.
 
+### 버전 생성하기 \(git commit\)
+
+```text
+git commit
+```
+
+### 버전 로그보기\(git log\)
+
+```text
+git log
+```
+
