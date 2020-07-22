@@ -87,6 +87,7 @@
     * [3.3 인코딩으로 전송 효율을 높이다.](http-network-1/3.-http-http-./3.3-..md)
     * [3.4 여러 데이터를 보내는 멀티파트](http-network-1/3.-http-http-./3.4.md)
     * [3.5 일부분만 받는 레인지 리퀘스트](http-network-1/3.-http-http-./3.5.md)
+    * [3.6 최적의 콘텐츠를 돌려주는 콘텐츠 네고시에이션](http-network-1/3.-http-http-./3.6.md)
   * [7. 웹을 안전하게 HTTPS](http-network-1/7.-https/README.md)
     * [7.1 HTTP의 약점](http-network-1/7.-https/7.1-http.md)
     * [7.2 HTTP+암호화+인증+완전성보호 = HTTPS](http-network-1/7.-https/7.2-http+-+-+-https.md)
