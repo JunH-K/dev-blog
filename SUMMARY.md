@@ -92,6 +92,7 @@
     * [4.1 상태코드는 서버로부터 리퀘스트 결과를 전달한다.](http-network-1/4.-http/4.1-..md)
     * [4.2 2xx 성공](http-network-1/4.-http/4.2-2xx.md)
     * [4.3. 3xx 리다이렉트](http-network-1/4.-http/4.3.-3xx.md)
+    * [4.4 4xx 클라이언트 에러](http-network-1/4.-http/4.4-4xx.md)
   * [7. 웹을 안전하게 HTTPS](http-network-1/7.-https/README.md)
     * [7.1 HTTP의 약점](http-network-1/7.-https/7.1-http.md)
     * [7.2 HTTP+암호화+인증+완전성보호 = HTTPS](http-network-1/7.-https/7.2-http+-+-+-https.md)
