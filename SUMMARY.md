@@ -94,6 +94,7 @@
     * [4.3. 3xx 리다이렉트](http-network-1/4.-http/4.3.-3xx.md)
     * [4.4 4xx 클라이언트 에러](http-network-1/4.-http/4.4-4xx.md)
     * [4.5 5xx 서버 에러](http-network-1/4.-http/4.5-5xx.md)
+  * [5. HTTP와 연계하는 웹 서버](http-network-1/5.-http.md)
   * [7. 웹을 안전하게 HTTPS](http-network-1/7.-https/README.md)
     * [7.1 HTTP의 약점](http-network-1/7.-https/7.1-http.md)
     * [7.2 HTTP+암호화+인증+완전성보호 = HTTPS](http-network-1/7.-https/7.2-http+-+-+-https.md)
