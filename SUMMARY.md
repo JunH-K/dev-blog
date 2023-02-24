@@ -34,8 +34,8 @@
   * [Promise](javascript/let-const/promise.md)
   * [템플릿 문자열 표현식](javascript/let-const/undefined-2.md)
   * [이터레이션](javascript/let-const/undefined-3.md)
-  * [클래스 \(Class\)](javascript/let-const/class.md)
-  * [심볼 \(Symbol\)](javascript/let-const/symbol.md)
+  * [클래스 (Class)](javascript/let-const/class.md)
+  * [심볼 (Symbol)](javascript/let-const/symbol.md)
   * [제너레이터](javascript/let-const/undefined-4.md)
 
 ## 객체지향설계
@@ -47,11 +47,11 @@
   * [인터페이스 분리 원칙](undefined/undefined/undefined-3.md)
   * [의존 역전 원칙](undefined/undefined/undefined-4.md)
 
-## 브라우저와 자바스크립트 <a id="undefined-1"></a>
+## 브라우저와 자바스크립트 <a href="#undefined-1" id="undefined-1"></a>
 
 * [Document Object Model](undefined-1/dom-document-object-model/README.md)
   * [DOM API](undefined-1/dom-document-object-model/dom-api.md)
-  * [이벤트 \(Event\)](undefined-1/dom-document-object-model/event.md)
+  * [이벤트 (Event)](undefined-1/dom-document-object-model/event.md)
 
 ## Node.js
 
@@ -60,8 +60,6 @@
 * [node.js 버전 관리](node.js/10.md)
 
 ## HTTP
-
----
 
 * [HTTP 기본](http-network-1/README.md)
   * [1. 웹과 네트워크 기본](http-network-1/1./README.md)
@@ -77,7 +75,7 @@
     * [2.2 리퀘스트와 리스폰스를 교환하여 성립](http-network-1/2.-http/2.2.md)
     * [2.3 상태를 유지하지 않는 프로토콜 HTTP](http-network-1/2.-http/2.3-http.md)
     * [2.4 리퀘스트 URI로 리소스 식별](http-network-1/2.-http/2.4-uri.md)
-    * [2.5  HTTP 메소드](http-network-1/2.-http/2.5-http.md)
+    * [2.5 HTTP 메소드](http-network-1/2.-http/2.5-http.md)
     * [2.6 메소드 사용](http-network-1/2.-http/2.6.md)
     * [2.7 지속연결로 접속량 절약](http-network-1/2.-http/2.7.md)
     * [2.8 쿠키를 사용한 상태관리](http-network-1/2.-http/2.8.md)
@@ -110,4 +108,3 @@
 ## GIT
 
 * [Git 기초 명령어](git/git.md)
-
